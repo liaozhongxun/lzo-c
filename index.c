@@ -25,6 +25,9 @@ int main(int argc, char const *argv[])
 
     printf("i=%d,b=%d\n",i,j);
 
-	printf(HELLO);
+    int arr[] = {1,2,3,4,5};
+    printf("%d\n",sizeof(arr));
+    printf("%d\n",sizeof(*arr));
+    printf("%d\n",*arr);
 	return 0;
 }
