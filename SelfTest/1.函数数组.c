@@ -14,7 +14,11 @@ int print_arr(int *p,int n){
 
 // int print_arr2(int (*p)[4],int m,int n){ //通过*(*(p+i)+j) 取值 ，N表示这个指值指向的是多长的一个小一维数组  
 int print_arr2(int p[][4],int m,int n){ //二维通过指针数组接收 p[i][j] 形式取值
-
+    int i,j;
+    for(i=0;i<m;i++){
+        for(j=0;j<n;j++){
+        }
+    }
 }
 
 //a[2][3]为2个学生三门课的成绩，求第二个学生每一科成绩
